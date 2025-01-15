@@ -12,9 +12,5 @@ interface IMorpho {
     /// @param token The token to flash loan.
     /// @param assets The amount of assets to flash loan.
     /// @param data Arbitrary data to pass to the `onMorphoFlashLoan` callback.
-    function flashLoan(
-        address token,
-        uint256 assets,
-        bytes calldata data
-    ) external;
+    function flashLoan(address token, uint256 assets, bytes calldata data) external;
 }
